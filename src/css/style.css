@@ -1,0 +1,69 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('spinner.css');
+
+body {
+    background-color: #f7f7f7;
+    font-family: Neue Haas Unica W01 Medium It, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif
+}
+
+.react-paginate {
+    clear: both;
+}
+
+nav ul li {
+    font-size: 9pt;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.list-products .row:after,
+.list-products .row:before {
+    display: inline;
+}
+
+.product-name {
+    height: 50px;
+}
+
+.product-content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #444444;
+    border: 1px solid #444444;
+    background-color: white;
+}
+
+.product-cons {
+    height: 150px;
+}
+
+.product-cons div {
+    padding-bottom: 5px;
+}
+
+.border-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #eee;
+}
+
+.checkbox input[type=checkbox] {
+    margin-top: 2px;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    color: #444444;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: #444444;
+    border-color: #444444;
+}
